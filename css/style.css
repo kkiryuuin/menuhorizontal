@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#menuh {
+    background-color: #22402C;
+}
+
+#menuh ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: #22402C;
+}
+
+#menuh ul li{
+    display: inline;
+}
+
+#menuh ul li a{
+    color: #D1D996;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menuh ul li a:hover {
+    background-color: #53733C;
+}
+
+#menuh ul li:last-child a{
+    float: right;
+    background-color: #758C64;
+}
+
+.corpo {
+    background-color: #D1D996;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .rodape {
+    font-size: smaller;
+    background-color: #22402C;
+    padding: 10px;
+    text-align: center;
+    color: #D1D996;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+  .texto {
+    background-color: #e9eec4;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  /* Container flexível para os cards */
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Estilo para cada card */
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    flex: 1; /* Faz os cards ocuparem a largura igualmente dentro do container flexível */
+}
+
+/* Estilo para a imagem dentro do card */
+.card img {
+    width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none; /* Remover os pontos */
+    padding: 0;
+}
